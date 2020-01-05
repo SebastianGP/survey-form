@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Lorem Ipsum Survey</title>
+</head>
+<body>
+
+
+  <div id="background">
+    <div id="layer">
+      <div id="top">
+        <header>
+          <h1 id="title"> Lorem Ipsum Survey Form </h1>
+
+          <p id="description"> Thank you for using our platform. In order to help deliver better products please give us
+            feedback on the platform's current model. </p>
+        </header>
+      </div>
+
+      <section id="box">
+        <div id="survey">
+
+          <form id="survey-form">
+
+            <div class="form-group">
+              <label id="name-label" for="name"> Name <br> </label>
+              <input type="text" class="form-control" id="name" name="name" placeholder="Enter your full name" required>
+              <br>
+            </div>
+
+            <div class="form-group">
+              <label id="number-label" for="number"> Age (optional) </label> <br>
+              <input type="number" id="number" class="form-control" name="number" min="18" max="99"
+                placeholder="Enter your age"> <br>
+            </div>
+
+            <div class="form-group">
+              <label id="email-label" for="email"> Email address</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+            </div>
+
+            <div class="form-group">
+              <label for="tel"> Phone number </label>
+              <input type="tel" id="tel" class="form-control" placeholder="123-456-7890" required> <br>
+            </div>
+
+            <div class="form-group">
+              <label for="sel1">Customer Type</label>
+              <select id="dropdown" class="form-control" id="sel1">
+                <option selected="selected"> --Choose One-- </option>
+                <option>Professional</option>
+                <option>Hobbyist</option>
+                <option>Educator</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+
+              <label for="radio"> Would you reccommend our service? </label>
+              <div class="form-check" id="radio">
+                <input class="form-check-input position-static" type="radio" name="prodrec" id="yesradio" value="yes"
+                  aria-label="..."> Yes
+              </div>
+              <div class="form-check" id="radio">
+                <input class="form-check-input position-static" type="radio" name="prodrec" id="noradio" value="no"
+                  aria-label="..."> No
+              </div>
+
+
+            </div>
+
+            <div class="form-group">
+
+              <label for="check"> What should be improved? </label> <br>
+              <div id="check" class="form-check">
+                <input class="form-check-input position-static" type="checkbox" id="checkbox2" value="lorem"> Lorem
+
+              </div>
+              <div class="form-check" id="check">
+                <input class="form-check-input postion-static" type="checkbox" id="checkbox2" value="ipsum"> Ipsum
+              </div>
+
+
+            </div>
+
+            <div class="form-group">
+              <label id="text-area" for="feedback"> Feedback </label>
+              <textarea class="form-control" id="feedback" rows="3"> </textarea>
+            </div>
+
+            <div class="form-group col text-center">
+              <button id="submit" type="submit" class="btn btn-success">
+                Submit
+              </button>
+
+            </div>
+
+          </form>
+
+        </div>
+
+      </section>
+    </div>
+  </div>
+
+</body>
+</html>
+
+

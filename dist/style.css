@@ -1,0 +1,61 @@
+html,
+body {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+#top {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  min-width: 30vw;
+}
+
+#background {
+  background: url(https://yw553ftvhw1iqegz29fycoyw-wpengine.netdna-ssl.com/wp-content/uploads/2019/03/Information-technology.jpg)
+    no-repeat center center fixed;
+  background-size: cover;
+}
+
+#layer {
+  background-color: rgba(53, 215, 247, 0.44);
+}
+
+#survey {
+  color: black;
+  width: 400px;
+  min-width: 300px;
+  height: 125vh;
+  background-color: rgba(247, 247, 247, 0.9);
+  display: flex;
+  justify-content: center;
+  border: 2px solid rgba(252, 251, 242, 0.26);
+  border-radius: 10px 10px 10px 10px;
+}
+
+.form-group {
+  height: 70px;
+  padding: 10px 10px 10px 10px;
+}
+
+#box {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.form-control{
+  width: 20em;
+}
+
+.btn{
+  width: 20em;
+  position: relative;
+  top: 50px;
+}
+
+#feedback{
+  border: 2px solid rgba(252, 251, 242, 0.26);
+  resize: none; 
+  overflow: auto;
+}
